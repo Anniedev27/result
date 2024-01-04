@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body{
+  background-color:  rgba(128, 0, 128, 0.450);
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 90%;
+  margin-top: 15%;
+}
+.note-container {
+  width: 55%;
+  margin-right: 5%; 
+}
+.note {
+  margin: 10%;
+}
+.form {
+  background-color: #fff;
+  width: 45%;
+  
+}
+.form-control {
+  width: 500px;
+  margin-left: 40px;
+  border: none;
+  background-color: rgba(158, 151, 151, 0.110);
+ 
+}
+.labelling{
+  margin-left: 40px;
+}
+.password-recovery {
+  margin-left: 40px;
+}
+
+#rememberMe {
+  margin-left: 40px;
+}
+button {
+  padding: 7px 30px ;
+  border: none;
+  background-color: #285dfd;
+  border-radius: 5px;
+  display: flex;
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+/* styling of the sign-up container */
+.container-2{
+  display: flex;
+  margin: 0 auto;
+  max-width: 90%;
+  margin-top: 3%;
+}
+.note-2{
+  margin-top: 35%;
+}
